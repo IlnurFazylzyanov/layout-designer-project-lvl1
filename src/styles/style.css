@@ -134,11 +134,25 @@ a {
 }
 
 .header a {
-  color: #fff;
+  color: var(--white);
 }
 
 .col-2 {
   column-count: 2;
   column-gap: 30px;
   text-align: left;
+}
+
+.iframe-video {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.iframe-video p {
+  margin-top: 27px;
+  margin-bottom: 30px;
 }
