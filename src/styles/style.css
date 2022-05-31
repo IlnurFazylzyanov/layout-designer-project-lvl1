@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --white: #fff;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --dark: #2a2626;
+  --primary-dark: #42413c;
+  --brown: #b09a81;
+  --dark50: #908d8b;
+  --white50: #d7ccc0;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: var(--primary);
+  margin: 0;
+}
